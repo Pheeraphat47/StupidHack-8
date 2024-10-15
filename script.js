@@ -17,7 +17,7 @@ function addSheep(event) {
 
 function createSheep() {
     let sheepImage = document.createElement('img');
-    sheepImage.src = 'sheep.jpg'; // ใช้ URL ของรูปภาพแกะที่คุณดาวน์โหลด
+    sheepImage.src = 'sheep.jpg';
     sheepImage.className = 'sheep';
     
     // สุ่มตำแหน่งของแกะ
